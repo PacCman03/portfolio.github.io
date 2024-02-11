@@ -168,3 +168,6 @@ ul a:hover{
         transition: 0.2s;
     }
 
+#logo{
+    height: 50px;
+}
