@@ -171,3 +171,44 @@ ul a:hover{
 #logo{
     height: 50px;
 }
+
+#name, #email{
+    width: 400px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border: 0px;
+    height: 45px;
+    box-shadow: 1px 1px 4px black;
+}
+
+#sub{
+    margin: 0px;
+    border: 0px;
+    height: 45px;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px black;
+}
+
+#subm{
+    margin: 0px;
+    border: 0px;
+    height: 60px;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px black;
+}
+
+input[type="Submit"]{
+    border: 0px;
+    height: 45px;
+    width: 800px;
+    background-color: #cb3636;
+    border-radius: 20px;
+}
+
+input[type="Submit"]:hover{
+    transform: scale(1.03);
+    transition: all ease 0.3s;
+}
