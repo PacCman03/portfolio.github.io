@@ -17,8 +17,8 @@
         <a href="#services">Contact</a>
         <a href="Experience.html">Experiences</a>
         <a href="#me">About</a>
-        <a href="index.html">Home</a> 
-        <img src="Logo.png" id="logo">       
+        <a href="index.html">Home</a>
+        <img src="Logo.png" id="logo">        
         <br>
     </ul>
 <br>
@@ -75,14 +75,19 @@
         <hr>
     </main>
     <footer>
+
+            <div class="contact-link" style="margin-left: 30px;">
         <h4 style="color: #000000;">Contact me at inco.com</h4>
-        <h5 style="color:#000000;">Or..</h5>
+        <h5 style="color:#000000; margin-left: 20px;">Or..</h5>
         <i id="mail"class="fa-solid fa-envelope" style="color: rgba(0, 0, 0, 0.9);"></i> : <span style="color: black">amoghrakhunde7@gmail.com</span>
         <br>
         <i id="insta" class="fa-brands fa-instagram"></i> : <a href="https://www.instagram.com/__amogh__paccman_/" id="pacc">Paccman!</a>
+            </div>
+  
         <br>
         <br>
-        <h5 style="color: #000000;">Or..</h5>
+        <h5 style="color: #000000; margin-left: 47px;">Or..</h5>
+        <div class="contact">  
         <h3 style="color: #000000;">Get in touch</h3>
         <span id="form">You can type in the details here, but unfortunetly this wont work.<br>But don't worry if I build your form that will work.
         I can use Reactjs, Nextjs13, Formik, Zod in frontend<br>
@@ -90,24 +95,26 @@
         </span>
             <br>
             <br> 
-            <br>   
+            <br> 
             <div class="container2"> 
-                <form action="/action.php" id="services">
-                    <input type="text" placeholder="Your name" id="name"> <input id="email" type="text" placeholder="Your email">
-                    <br>
-                    <br>
-                    <input id="sub"type="text" placeholder="Subject">
-                    <br>
-                    <br>
-                    <textarea id="subm" rows="2" type="Message" placeholder="Message"></textarea>
-                    <br>
-                    <br>
-                    <input type="Submit" value="Submit">
-                    <br>                                                                             
-                    <br>    
-                    <br>                                                                                                                    
-                </form>
-            </div> 
+            <form action="/form.js" id="services">
+                <script src="form.js"></script>
+                <input type="text" placeholder="Your name" id="name"> <input id="email" type="text" placeholder="Your email">
+                <br>
+                <br>
+                <input id="sub"type="text" placeholder="Subject">
+                <br>
+                <br>
+                <textarea id="subm" rows="2" type="Message" placeholder="Message"></textarea>
+                <br>
+                <br>
+                <input type="Submit" value="Submit">
+                <br>                                                                             
+                <br>    
+                <br>                                                                                                                    
+            </form>
+            </div>
+        </div> 
             <div id="foot">Thank you!</div>   
        
     </footer>
