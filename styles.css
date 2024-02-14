@@ -1,3 +1,7 @@
+*{
+    font-size: medium;
+}
+
 body {
     margin: 0px;
 }
@@ -119,6 +123,11 @@ form{
 #insta{
     color: rgb(191, 10, 191);
     text-decoration: none;
+    margin-left: 40px
+}
+
+#mail{
+    margin-left: 40px;
 }
 
 #pacc{
@@ -141,6 +150,7 @@ form{
     color: white;
     background-color: #27005D;
     height: 50px;
+    font-weight: bold;
     }
 
 ul{
@@ -166,7 +176,7 @@ ul a{
 ul a:hover{
         color: #AED2FF;
         transition: 0.2s;
-    }
+    } 
 
 #logo{
     height: 50px;
@@ -211,4 +221,20 @@ input[type="Submit"]{
 input[type="Submit"]:hover{
     transform: scale(1.03);
     transition: all ease 0.3s;
+}
+
+.contact{
+    margin-left: 80px;
+}
+
+textarea ::placeholder{
+    text-align: center;
+}
+
+::-webkit-input-placeholder{
+    margin-top: 70px;
+}
+
+:-moz-placeholder{
+    text-align: center;
 }
