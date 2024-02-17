@@ -20,7 +20,17 @@ footer{
     color: #9400FF;
 }
 
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
 
+.logo{
+    background-image: url("Logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 50%;
+}
 
 #myPhoto{
     display: block;
