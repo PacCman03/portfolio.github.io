@@ -1,5 +1,6 @@
 *{
     font-size: medium;
+    font-family: "Fredoka", sans-serif;
 }
 
 body {
@@ -54,7 +55,56 @@ footer{
     height: 100px;
     margin: 50px;
     box-shadow: 5px 5px 20px black; 
-    color: black
+    color: black;
+}
+
+@media (max-width: 890px){
+    #aboutme{
+        height: 118px;
+    }
+}
+
+@media (max-width: 727px){
+    #aboutme{
+        height: 145px;
+    }
+}
+
+@media (max-width: 622px) {
+    #aboutme{
+        height: 170px;
+    }
+}
+
+@media (max-width: 557px) {
+    #aboutme{
+        height: 191px;
+    }
+}
+
+@media (max-width: 903px){
+    #me{
+        font-size: 20px;
+        width: 20%;
+    }
+}
+
+@media (max-width: 521px) {
+    #aboutme{
+        height: 218px;
+    }
+}
+
+@media (max-width: 616px) {
+    #me{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 571px) {
+    #me{
+        font-size: 20px;
+    }
 }
 
 big{
@@ -64,8 +114,24 @@ big{
 }
 
 .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#youtube{
     text-decoration: none;
-    text-align: center;
+    color: red;
+}
+
+#linkedin{
+    color: rgb(0, 179, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#github{
+    color: black;
 }
 
 #intro{
@@ -80,16 +146,27 @@ u{
     text-align: center;
 }
 
-main{
+/* main{
     display: flex;
     justify-content: center;
-    height: 60vh;
-    align-items: center;
-}
+    /* height: 60vh; */
+    /* align-items: center; 
+}*/
+
 
 .container{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 5px;
+    }
+
 }
 
 .card{
@@ -110,24 +187,15 @@ main{
     transition: all ease 0.2s - 0.5s;
 }
 
-#youtube{
-    text-decoration: none;
-    color: red;
-    width: 1%;
-}
-
-#linkedin{
-    color: rgb(0, 179, 255);
-    width: 2%;
-}
-
-#github{
-    color: black;
-    width: 1%;
-}
-
 form{
     text-align: center;
+}
+
+@media (max-width: 901px) {
+    form{
+        gap: 100px;
+    }
+
 }
 
 #insta{
@@ -154,12 +222,9 @@ form{
 }
 
 #foot{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
     background-color: #27005D;
-    height: 50px;
+    height: 70px;
+    width: auto;
     font-weight: bold;
     }
 
@@ -211,6 +276,18 @@ ul a:hover{
     box-shadow: 1px 1px 4px black;
 }
 
+@media (max-width: 875px) {
+    #sub{
+        width: 480px;
+    }
+}
+
+@media (max-width: 555px) {
+    #sub{
+        width: 380px;
+    }
+}
+
 #subm{
     margin: 0px;
     border: 0px;
@@ -218,6 +295,19 @@ ul a:hover{
     width: 800px;
     border-radius: 20px;
     box-shadow: 1px 1px 4px black;
+    resize: none;
+}
+
+@media (max-width: 875px) {
+    #subm{
+        width: 480px;
+    }
+}
+
+@media (max-width: 555px) {
+    #subm{
+        width: 380px;
+    }
 }
 
 input[type="Submit"]{
@@ -233,6 +323,18 @@ input[type="Submit"]:hover{
     transition: all ease 0.3s;
 }
 
+@media (max-width: 875px) {
+    input[type="Submit"]{    
+    width: 500px;
+    }
+}
+
+@media (max-width: 555px) {
+    input[type="Submit"]{
+        width: 380px;
+    }
+}
+
 .contact{
     margin-left: 80px;
 }
@@ -241,10 +343,15 @@ textarea ::placeholder{
     text-align: center;
 }
 
-::-webkit-input-placeholder{
-    margin-top: 70px;
+.bottom {
+    color: white;
+    text-align: start;
+    padding-top: 21px;
+    font-weight: 400;
 }
 
-:-moz-placeholder{
+.thanks{
     text-align: center;
+    color: white;
+    font-weight: 450;
 }
