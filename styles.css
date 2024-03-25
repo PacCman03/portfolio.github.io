@@ -228,7 +228,7 @@ form{
     font-weight: bold;
     }
 
-ul{
+.nav-bar{
     list-style-type: none;
     position: fixed;
     width: 100%;
@@ -239,7 +239,7 @@ ul{
     z-index: 999;
 }
     
-ul a{
+.nav-bar a{
     float: right;
     display: flex;
     flex-direction: row-reverse;
@@ -250,7 +250,7 @@ ul a{
     transition: all ease 0.3s;
     }
 
-ul a:hover{
+.nav-bar a:hover{
         color: #AED2FF;
         transition: 0.2s;
     } 
@@ -359,3 +359,19 @@ textarea ::placeholder{
     color: white;
     font-weight: 450;
 }
+
+/* experiences.html */
+.edu-title{
+    text-align: center;
+    padding-top: 10px;
+    /* padding-left: 100px; */
+    font-style: italic;
+}
+/* 
+.edu-images{
+    display: flex;
+    padding-left: 40px;
+    row-gap: 100px;
+    padding-top: 10px;
+    flex-direction: column;
+} */
