@@ -52,59 +52,10 @@ footer{
     display: block;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 100px;
     margin: 50px;
     box-shadow: 5px 5px 20px black; 
     color: black;
-}
-
-@media (max-width: 890px){
-    #aboutme{
-        height: 118px;
-    }
-}
-
-@media (max-width: 727px){
-    #aboutme{
-        height: 145px;
-    }
-}
-
-@media (max-width: 622px) {
-    #aboutme{
-        height: 170px;
-    }
-}
-
-@media (max-width: 557px) {
-    #aboutme{
-        height: 191px;
-    }
-}
-
-@media (max-width: 903px){
-    #me{
-        font-size: 20px;
-        width: 20%;
-    }
-}
-
-@media (max-width: 521px) {
-    #aboutme{
-        height: 218px;
-    }
-}
-
-@media (max-width: 616px) {
-    #me{
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 571px) {
-    #me{
-        font-size: 20px;
-    }
+    font-size: clamp(1rem, 2.5vw, 17px);
 }
 
 big{
