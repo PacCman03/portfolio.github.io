@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(169, 206, 244)
+}
+
+.login_signup{
+    text-overflow: hidden;
+    left: 85vw;
+    top: 3vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.default_log-in, .default_sign-up{
+    font-size: 0.9rem;
+    text-overflow: hidden;
+    height: 2.4vw;
+    width: 5vw;
+    box-shadow:  1px 5px 5px #888888;
+    font-family: "Nunito", sans-serif;
+    border: none;
+    background-color: #7ea0b7;
+    border-radius: 16%;
+}
+
+.default_log-in{
+    margin-right: 1vh;
+}
+
+.default_log-in, .default_sign-up:hover{
+    cursor: pointer;
+}
