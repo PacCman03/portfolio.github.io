@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: rgb(169, 206, 244)
+    background-color: #36494e;
 }
 
 .login_signup{
@@ -15,15 +15,16 @@
 }
 
 .default_log-in, .default_sign-up{
-    font-size: 0.9rem;
+    font-size: 0.97rem;
     text-overflow: hidden;
-    height: 2.4vw;
+    height: 2.3vw;
     width: 5vw;
-    box-shadow:  1px 5px 5px #888888;
+    box-shadow:  1px 5px 5px rgba(0, 0, 0, 0.3);
     font-family: "Nunito", sans-serif;
     border: none;
-    background-color: #7ea0b7;
-    border-radius: 16%;
+    background-color: #a9cef4;
+    border-radius: 5.5%;
+    transition: 0.1s ease-in all;
 }
 
 .default_log-in{
@@ -32,4 +33,20 @@
 
 .default_log-in, .default_sign-up:hover{
     cursor: pointer;
+}
+
+.default_log-in:hover{
+    background-color: #96b7d9;
+}
+
+.default_sign-up:hover{
+    background-color: #96b7d9;
+}
+
+.logo img{
+    transition: 0.1s ease-in all;
+    left: 25rem;
+    top: 15rem;
+    position: absolute;
+    height: 35vh;
 }
