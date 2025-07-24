@@ -164,10 +164,6 @@ form{
     color: rgba(0, 0, 0, 0.9);
 }
 
-#email{
-    color: rgba(255, 255, 255, 0.9);
-}
-
 #form{
     color: rgba(0, 0, 0, 0.9);
 }
@@ -213,8 +209,8 @@ form{
 #name, #email{
     width: 400px;
     border-radius: 20px;
-    color: #ffffff;
-    background-color: #ffffff;
+    /* color: #ffffff; */
+    /* background-color: #ffffff; */
     border: 0px;
     height: 45px;
     box-shadow: 1px 1px 4px black;
