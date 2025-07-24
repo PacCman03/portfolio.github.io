@@ -100,12 +100,13 @@
             <br> 
             <br> 
             <div class="container2"> 
-            <form action="/form.js" id="services">
-                <script src="form.js"></script>
-                <input type="text" placeholder="Your name" id="name"> <input id="email" type="text" placeholder="Your email">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="47b6e921-6598-4ef1-b9f7-9e3dba4468d3">
+                <input type="text" name="name" placeholder="Your name" id="name"> 
+                <input id="email" type="text" name="email" placeholder="Your email">
                 <br>
                 <br>
-                <input id="sub"type="text" placeholder="Subject">
+                <input id="sub" type="text" placeholder="Subject">
                 <br>
                 <br>
                 <textarea id="subm" rows="2" type="Message" placeholder="Message"></textarea>
